@@ -7,7 +7,7 @@ WORKDIR /usr/local/tomcat/webapps
 # Copy the project files to the Tomcat webapps directory
 COPY WebContent /usr/local/tomcat/webapps/ROOT
 
-# Expose port 8080 to access the web application
+# Expose port 8080
 EXPOSE 8080
 
 # Start Tomcat server
